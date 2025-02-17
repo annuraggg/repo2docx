@@ -1,0 +1,32 @@
+{
+  "name": "repo2docx",
+  "version": "1.0.0",
+  "description": "Convert GitHub repositories to DOCX documents",
+  "main": "index.js",
+  "bin": {
+    "repo2docx": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "docx",
+    "repository",
+    "converter",
+    "documentation",
+    "code"
+  ],
+  "author": "Anurag Sawant <hello@anuragsawant.in>",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^19.0.13",
+    "adm-zip": "^0.5.10",
+    "axios": "^1.6.2",
+    "docx": "^7.8.2",
+    "minimatch": "^10.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
