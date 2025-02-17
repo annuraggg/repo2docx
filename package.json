@@ -28,5 +28,9 @@
   },
   "engines": {
     "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/annuraggg/repo2docx"
   }
 }
