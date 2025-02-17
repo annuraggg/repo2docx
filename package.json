@@ -1,6 +1,6 @@
 {
   "name": "repo2docx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert GitHub repositories to DOCX documents",
   "main": "index.js",
   "bin": {
